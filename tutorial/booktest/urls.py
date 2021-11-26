@@ -12,6 +12,6 @@ urlpatterns = [
     # 列表视图
     url(r'^books/$', views.BookListView.as_view()),
     # 详情视图
-    url(r'^books/(?P<pk\d>+)$', views.BoolDetailView.as_view())
+    url(r'^books/(?P<pk>\d+)$', views.BoolDetailView.as_view())
 
 ]
